@@ -1,1 +1,52 @@
-// TODO
+.posts {
+
+  a {
+    display: block;
+    margin-top: 3rem;
+
+    h1 {
+      font-size: 2rem;
+      line-height: 2.2rem;
+      text-align: justify;
+      margin-bottom: 1rem;
+      transition: filter 0.2s;
+
+    }
+    
+    p {
+      font-size: 1.2rem;
+      line-height: 1.75rem;
+      text-align: justify;
+    }
+    
+    div {
+      margin-top: 1.5rem;
+      
+      span {
+        display: inline-flex;
+        align-items: center;
+        
+        small {
+          font-size: 1rem;
+          margin-left: 0.5rem;
+          margin-right: 1rem;
+        }
+      }
+    }
+
+    &:hover h1 {
+      filter: brightness(0.6);
+    }
+  }
+
+  button {
+    border: 0;
+    font-size: 1rem;
+    font-weight: 700;
+    background: var(--gray-800);
+    color: var(--pink-900);
+    outline: none;
+    margin-top: 3rem;
+  }
+}
+
